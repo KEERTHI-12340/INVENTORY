@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Result</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <h2>Highest Selling Product</h2>
+    <p>Product: {{ result.highest_selling.Product }}</p>
+    <p>Quantity Sold: {{ result.highest_selling.QuantitySold }}</p>
+    
+    <h2>Highest Profit Margin Product</h2>
+    <p>Product: {{ result.highest_profit_margin.Product }}</p>
+    <p>Profit Margin: {{ result.highest_profit_margin.ProfitMargin }}</p>
+    
+    <a href="/">Go back</a>
+</body>
+</html>
